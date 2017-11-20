@@ -209,14 +209,14 @@ data_settings = {
       'gamma':                    0.,
       'ma_variations':            False,
       'add_detector_systematics': False,
-      #'norm_atmmu':                0.4,
+      #'norm_atmmu':                0.4,               <----- run w this instead 
       # 'pid_bias':                 0.,
       'hi_fwd':                   0., # MSU parameterization of the forward impact angle
       'had_escale':               1.,
       'oscMode':                  'TwoNeutrino',
       'ma_variations':            False,
       'norm_noise':                0.0,
-      'atmmu_f':                  0.05  }
+      'atmmu_f':                  0.05  }   #  <------------------------------------ causes nans
 
 ####################  
 # try re-normalizing to correct norm_Nu basically ... 
